@@ -1,0 +1,119 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    position: relative;
+    top: 10px;
+    text-align: center;
+}
+#difficulty{
+    text-align: center;
+    margin-bottom: 30px;
+}
+#difficultySelector{
+    padding: 5px 10px;
+    font-size: 16px;
+    border: 1px solid #D3D3D3;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#difficultySelector:hover{
+    border-color: #000000;
+    background-color: #F5F5F5;
+}
+#board{
+    position: relative;
+    bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 375px;
+    height: 340px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+}
+.square{
+    width: 120px;
+    height: 120px;
+    border: 1px solid #D3D3D3;
+    background-color: #F5F5F5;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.square:hover{
+    background-color: #FFFFE0;
+}
+#end-message{
+    position: relative;
+    bottom: 10px;
+}
+#restartButton {
+    display: block;
+    position: relative;
+    bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px;
+    width: 150px;
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 40px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+#restartButton:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+@media(max-width: 768px){
+   #title{
+    font-size: 0.9rem;
+    position: absolute;
+    top: -10px;
+    
+   }
+   #difficulty{
+    position:absolute;
+    top: 65px;
+   }
+   #board{
+    width: 80vw;
+    height: 270px;
+    display:grid;
+    gap: 8px;
+   }
+   .square{
+    font-size: 1.8rem;
+    width: 125px;
+    height: 115px;
+   }
+   #restartButton{
+    font-size: 1rem;
+    position: absolute;
+    bottom: 10px;
+   }
+   #end-message{
+    position: absolute;
+    bottom: 28px;
+   }
+   #restartButton{
+    position: relative;
+    top: 115px;
+   }
+
+}
