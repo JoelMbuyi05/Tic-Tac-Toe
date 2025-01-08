@@ -13,3 +13,4 @@ Tic Tac Toe is a classic 3x3 grid-based gane built using HTML, CSS and JavaScrip
 - **Hard Mode**: Uses an algorithm to calculate the best moves.
 
 ## Live Demo
+https://tic-tac-kmdd6d44g-joels-projects-336aa911.vercel.app
