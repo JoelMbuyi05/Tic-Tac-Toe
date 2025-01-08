@@ -80,40 +80,40 @@ h1{
     color: #FFFFFF;
 }
 
-@media(max-width: 768px){
+@media(max-width: 480px){
    #title{
     font-size: 0.9rem;
     position: absolute;
-    top: -10px;
+    top: 140px;
     
    }
    #difficulty{
     position:absolute;
-    top: 65px;
+    top: 230px;
    }
    #board{
-    width: 80vw;
-    height: 270px;
+    width: 360px;
+    height: 250px;
     display:grid;
     gap: 8px;
+    position: relative;
+    right: 35px;
    }
    .square{
     font-size: 1.8rem;
-    width: 125px;
+    width: 120px;
     height: 115px;
    }
    #restartButton{
-    font-size: 1rem;
+    font-size: 1.3rem;
     position: absolute;
-    bottom: 10px;
+    bottom: 190px;
+    left: 145px;
    }
    #end-message{
-    position: absolute;
-    bottom: 28px;
-   }
-   #restartButton{
     position: relative;
-    top: 115px;
+    top: 100px;
+    right: 20px;
    }
 
 }

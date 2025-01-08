@@ -5,8 +5,6 @@ let currentPlayer = players[0]
 const endMessage = document.createElement('h2')
 endMessage.id = 'end-message';
 endMessage.textContent = `X's turn!`
-/*endMessage.style.marginTop = '12px'
-endMessage.style.textAlign='center'*/
 
 board.after(endMessage)
 
