@@ -58,12 +58,12 @@ h1{
 }
 #end-message{
     position: relative;
-    bottom: 10px;
+    bottom: 4px;
 }
 #restartButton {
     display: block;
     position: relative;
-    bottom: 30px;
+    bottom: 25px;
     margin-left: auto;
     margin-right: auto;
     height: 30px;
@@ -79,43 +79,3 @@ h1{
     background-color: #000000;
     color: #FFFFFF;
 }
-
-/*@media(max-width: 600px){
-   #title{
-    font-size: 1.2rem;
-    position: absolute;
-    top: 80px;
-    
-   }
-   #difficulty{
-    position:absolute;
-    top: 170px;
-   }
-   #board{
-    width: 90vw;
-    gap: 8px;
-    /*height: 250px;
-    display:grid;
-    position: relative;
-    right: 35px;
-   }
-   .square{
-    font-size: 1.8rem;
-    /*width: 120px;
-    height: 115px;
-   }
-   #restartButton{
-    font-size: 0.9rem;
-    padding: 8px 16px;
-    margin-top: 15px; 
-    position: absolute;
-    bottom: 190px;
-    left: 145px;
-   }
-   #end-message{
-    position: relative;
-    top: 100px;
-    right: 20px;
-   }
-
-}*/
